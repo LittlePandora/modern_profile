@@ -80,21 +80,21 @@ class ProfileScreen extends StatelessWidget {
               height: 30,
             ),
             const ProfileMenu(title: 'Setting', icons: Icons.settings,),
-            SizedBox(
-            height: 10,
-          ),
+            const SizedBox(
+              height: 10,
+            ),
             const ProfileMenu(title: 'Billing Detail', icons: Icons.wallet,),
-            SizedBox(
-            height: 10,
-          ),
+            const SizedBox(
+              height: 10,
+            ),
             const ProfileMenu(title: 'User Management', icons: Icons.person,),
-           SizedBox(
-            height: 40,
-          ),
+           const SizedBox(
+              height: 40,
+            ),
             const ProfileMenu(title: 'Information', icons: Icons.perm_device_information_rounded,),
-           SizedBox(
-            height: 10,
-          ),
+           const SizedBox(
+              height: 10,
+            ),
             const ProfileMenu(title: 'Log out', icons: Icons.logout,), 
           ],
         ),
